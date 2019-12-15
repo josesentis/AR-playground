@@ -1,14 +1,11 @@
 import React from "react";
-import Helmet from "react-helmet";
 
 function App() {
   return (
-    <div>
-      <Helmet>
-        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
-        <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-      </Helmet>
-    </div>
+    <a-scene embedded arjs='sourceType: webcam;'>
+      <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+      <a-marker-camera type="pattern" patternUrl="./pattern-Marker.patt"></a-marker-camera>
+    </a-scene>
   );
 }
 
