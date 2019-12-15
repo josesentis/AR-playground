@@ -1,12 +1,29 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <a-scene embedded arjs='sourceType: webcam;'>
-      <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-      <a-marker-camera type="pattern" patternUrl="./pattern-Marker.patt"></a-marker-camera>
-    </a-scene>
-  );
-}
+import Home from "./pages/home";
+import Scanner from "./pages/scanner";
+
+const App = () => (
+  <Router>
+    <ul>
+      <li>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/scanner">Scanner</Link>
+      </li>
+    </ul>
+    <hr />
+    <Switch>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/scanner">
+        <Scanner />
+      </Route>
+    </Switch>
+  </Router>
+);
 
 export default App;
