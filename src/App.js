@@ -4,9 +4,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/home";
 import Scanner from "./pages/scanner";
 
+import './App.css';
+
 const App = () => (
   <Router>
-    <ul>
+    <ul className="header">
       <li>
         <Link to="/scanner">Home</Link>
       </li>
