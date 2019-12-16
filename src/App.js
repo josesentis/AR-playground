@@ -8,19 +8,19 @@ const App = () => (
   <Router>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/scanner">Home</Link>
       </li>
       <li>
-        <Link to="/scanner">Scanner</Link>
+        <Link to="/">Scanner</Link>
       </li>
     </ul>
     <hr />
     <Switch>
       <Route exact path="/">
-        <Home />
+        <Scanner />
       </Route>
       <Route path="/scanner">
-        <Scanner />
+        <Home />
       </Route>
     </Switch>
   </Router>
