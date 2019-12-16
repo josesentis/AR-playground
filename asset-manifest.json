@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AR-playground/static/css/main.a6d800ce.chunk.css",
-    "main.js": "/AR-playground/static/js/main.75e8f81a.chunk.js",
-    "main.js.map": "/AR-playground/static/js/main.75e8f81a.chunk.js.map",
+    "main.css": "/AR-playground/static/css/main.d6754e30.chunk.css",
+    "main.js": "/AR-playground/static/js/main.aaba6ba0.chunk.js",
+    "main.js.map": "/AR-playground/static/js/main.aaba6ba0.chunk.js.map",
     "runtime-main.js": "/AR-playground/static/js/runtime-main.0144b88c.js",
     "runtime-main.js.map": "/AR-playground/static/js/runtime-main.0144b88c.js.map",
     "static/js/2.17e57ade.chunk.js": "/AR-playground/static/js/2.17e57ade.chunk.js",
     "static/js/2.17e57ade.chunk.js.map": "/AR-playground/static/js/2.17e57ade.chunk.js.map",
     "index.html": "/AR-playground/index.html",
-    "precache-manifest.88b61b08ce528bcac19f5519ff47fb3c.js": "/AR-playground/precache-manifest.88b61b08ce528bcac19f5519ff47fb3c.js",
+    "precache-manifest.78427aac32bfc5521aeaebf21598dc12.js": "/AR-playground/precache-manifest.78427aac32bfc5521aeaebf21598dc12.js",
     "service-worker.js": "/AR-playground/service-worker.js",
-    "static/css/main.a6d800ce.chunk.css.map": "/AR-playground/static/css/main.a6d800ce.chunk.css.map",
+    "static/css/main.d6754e30.chunk.css.map": "/AR-playground/static/css/main.d6754e30.chunk.css.map",
     "static/js/2.17e57ade.chunk.js.LICENSE": "/AR-playground/static/js/2.17e57ade.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.0144b88c.js",
     "static/js/2.17e57ade.chunk.js",
-    "static/css/main.a6d800ce.chunk.css",
-    "static/js/main.75e8f81a.chunk.js"
+    "static/css/main.d6754e30.chunk.css",
+    "static/js/main.aaba6ba0.chunk.js"
   ]
 }
