@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f45e3314a620bbffe5cb574a78f92ef",
+    "revision": "469a7e3d43361703c5bb17e6e00be1e2",
     "url": "/AR-playground/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/AR-playground/static/js/2.c781fef3.chunk.js.LICENSE"
   },
   {
-    "revision": "174b0c32a6a55226ba23",
-    "url": "/AR-playground/static/js/main.2d8e98d6.chunk.js"
+    "revision": "7006af260323dd7264a7",
+    "url": "/AR-playground/static/js/main.06970d9c.chunk.js"
   },
   {
     "revision": "3c9dd6c612067c91f3d4",

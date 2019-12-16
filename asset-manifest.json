@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/AR-playground/static/js/main.2d8e98d6.chunk.js",
-    "main.js.map": "/AR-playground/static/js/main.2d8e98d6.chunk.js.map",
+    "main.js": "/AR-playground/static/js/main.06970d9c.chunk.js",
+    "main.js.map": "/AR-playground/static/js/main.06970d9c.chunk.js.map",
     "runtime-main.js": "/AR-playground/static/js/runtime-main.0144b88c.js",
     "runtime-main.js.map": "/AR-playground/static/js/runtime-main.0144b88c.js.map",
     "static/js/2.c781fef3.chunk.js": "/AR-playground/static/js/2.c781fef3.chunk.js",
     "static/js/2.c781fef3.chunk.js.map": "/AR-playground/static/js/2.c781fef3.chunk.js.map",
     "index.html": "/AR-playground/index.html",
-    "precache-manifest.78fa297b0fb05426371d56459fd7d612.js": "/AR-playground/precache-manifest.78fa297b0fb05426371d56459fd7d612.js",
+    "precache-manifest.e9ba82858d9a4c872477b5233281519d.js": "/AR-playground/precache-manifest.e9ba82858d9a4c872477b5233281519d.js",
     "service-worker.js": "/AR-playground/service-worker.js",
     "static/js/2.c781fef3.chunk.js.LICENSE": "/AR-playground/static/js/2.c781fef3.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.0144b88c.js",
     "static/js/2.c781fef3.chunk.js",
-    "static/js/main.2d8e98d6.chunk.js"
+    "static/js/main.06970d9c.chunk.js"
   ]
 }
