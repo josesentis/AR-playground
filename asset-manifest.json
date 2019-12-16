@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.js": "/AR-playground/static/js/main.06970d9c.chunk.js",
-    "main.js.map": "/AR-playground/static/js/main.06970d9c.chunk.js.map",
+    "main.css": "/AR-playground/static/css/main.a6d800ce.chunk.css",
+    "main.js": "/AR-playground/static/js/main.75e8f81a.chunk.js",
+    "main.js.map": "/AR-playground/static/js/main.75e8f81a.chunk.js.map",
     "runtime-main.js": "/AR-playground/static/js/runtime-main.0144b88c.js",
     "runtime-main.js.map": "/AR-playground/static/js/runtime-main.0144b88c.js.map",
-    "static/js/2.c781fef3.chunk.js": "/AR-playground/static/js/2.c781fef3.chunk.js",
-    "static/js/2.c781fef3.chunk.js.map": "/AR-playground/static/js/2.c781fef3.chunk.js.map",
+    "static/js/2.17e57ade.chunk.js": "/AR-playground/static/js/2.17e57ade.chunk.js",
+    "static/js/2.17e57ade.chunk.js.map": "/AR-playground/static/js/2.17e57ade.chunk.js.map",
     "index.html": "/AR-playground/index.html",
-    "precache-manifest.e9ba82858d9a4c872477b5233281519d.js": "/AR-playground/precache-manifest.e9ba82858d9a4c872477b5233281519d.js",
+    "precache-manifest.88b61b08ce528bcac19f5519ff47fb3c.js": "/AR-playground/precache-manifest.88b61b08ce528bcac19f5519ff47fb3c.js",
     "service-worker.js": "/AR-playground/service-worker.js",
-    "static/js/2.c781fef3.chunk.js.LICENSE": "/AR-playground/static/js/2.c781fef3.chunk.js.LICENSE"
+    "static/css/main.a6d800ce.chunk.css.map": "/AR-playground/static/css/main.a6d800ce.chunk.css.map",
+    "static/js/2.17e57ade.chunk.js.LICENSE": "/AR-playground/static/js/2.17e57ade.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.0144b88c.js",
-    "static/js/2.c781fef3.chunk.js",
-    "static/js/main.06970d9c.chunk.js"
+    "static/js/2.17e57ade.chunk.js",
+    "static/css/main.a6d800ce.chunk.css",
+    "static/js/main.75e8f81a.chunk.js"
   ]
 }
