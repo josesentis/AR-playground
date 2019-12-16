@@ -10,19 +10,19 @@ const App = () => (
   <Router>
     <ul className="header">
       <li>
-        <Link to="/scanner">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">Scanner</Link>
+        <Link to="/scanner">Scanner</Link>
       </li>
     </ul>
     <hr />
     <Switch>
-      <Route exact path="/">
-        <Scanner />
+      <Route path="/" exact>
+        <Home />
       </Route>
       <Route path="/scanner">
-        <Home />
+        <Scanner />
       </Route>
     </Switch>
   </Router>
