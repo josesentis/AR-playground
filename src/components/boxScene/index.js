@@ -2,7 +2,7 @@ import React from "react";
 
 import '../styles.css';
 
-const BoxScene = () => (
+const Scene = () => (
   <div className="scene">
     <a-scene embedded arjs='trackingMethod: best;'>
       <a-marker preset="hiro">
@@ -13,4 +13,4 @@ const BoxScene = () => (
   </div>
 );
 
-export default BoxScene;
+export default Scene;

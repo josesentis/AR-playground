@@ -3,12 +3,10 @@ import React from "react";
 import '../styles.css';
 
 const Scene = ({ text }) => {
-  console.log(text);
-
   return (
     <div className="scene">
       <a-scene embedded arjs='trackingMethod: best;'>
-        <a-assets>
+      <a-assets>
           <a-mixin
             id="text"
             text={`align: center; width: 3; font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt; value: ${text};`}
