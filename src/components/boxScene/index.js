@@ -4,7 +4,7 @@ import '../styles.css';
 
 const text = 'Some text.';
 
-const Scene = () => (
+const boxScene = () => (
   <div className="scene">
     <a-scene embedded arjs='trackingMethod: best;'>
       <a-anchor hit-testing-enabled='true'>
@@ -17,4 +17,4 @@ const Scene = () => (
   </div>
 );
 
-export default Scene;
+export default boxScene;
