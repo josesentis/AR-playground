@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import TextScene from '../../components/textScene';
+// import BoxScene from '../../components/boxScene';
 
 const Scanner = () => {
   const [loaded, setLoaded] = useState(false);
@@ -16,6 +17,7 @@ const Scanner = () => {
   });
 
   return loaded ? <TextScene text={text} /> : <p>Loading...</p>;
+  // return loaded ? <BoxScene /> : <p>Loading...</p>;
 };
 
 export default Scanner;
