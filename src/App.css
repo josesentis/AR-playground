@@ -6,4 +6,5 @@
     padding: 20px 40px;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }

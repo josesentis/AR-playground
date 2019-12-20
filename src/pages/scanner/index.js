@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-import ImageScene from '../../components/imageScene';
+// import ImageScene from '../../components/imageScene';
+import KanjiScene from '../../components/kanjiScene';
 
 import poster from './poster.png';
 
@@ -17,7 +18,14 @@ const Scanner = () => {
     return () => clearTimeout(timer);
   });
 
-  return loaded ? <ImageScene src={src} /> : <p>Loading...</p>;
+  if (!loaded) return <p>Loading...</p>;
+
+  return (
+    <div>
+      {/* <ImageScene src={src} /> */}
+      <KanjiScene />
+    </div>
+  );
 };
 
 export default Scanner;
