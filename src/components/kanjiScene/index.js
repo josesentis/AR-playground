@@ -1,16 +1,11 @@
 import React from "react";
 
-import '../styles.css';
-
-const Scene = () => {
-  return (
-    <div className="scene">
-      <a-scene embedded arjs='sourceType: webcam;'>
-        <a-box position='0 0.5 0' material='color: red;'></a-box>
-        <a-marker-camera type='pattern' url="./patterns/kanji/pattern-kanji.patt"></a-marker-camera>
-      </a-scene>
-    </div>
-  );
-};
+const Scene = () => (
+  <>
+    <a-marker type="pattern" url="https://cdn.glitch.com/418c9d09-ea8f-42a9-a6b8-65fe2a5baa88%2Fpattern-marker%20(3).patt">
+      <a-box position="0 0.5 0" material="color: red;"></a-box>
+    </a-marker>
+  </>
+);
 
 export default Scene;
