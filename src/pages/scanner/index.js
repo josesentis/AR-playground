@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import ImageScene from '../../components/imageScene';
-import KanjiScene from '../../components/kanjiScene';
+// import KanjiScene from '../../components/kanjiScene';
 // import HiroScene from '../../components/hiroScene';
 // import TextScene from '../../components/textScene';
 
-import poster from './poster.png';
 import '../../styles.css';
+import poster from './poster.png';
 
 const Scanner = () => {
   const [loaded, setLoaded] = useState(false);
@@ -28,7 +28,7 @@ const Scanner = () => {
       <a-scene embedded arjs='trackingMethod: best;'>
         <ImageScene src={src} />
         {/* <HiroScene /> */}
-        <KanjiScene />
+        {/* <KanjiScene /> */}
         {/* <TextScene /> */}
         <a-camera-static />
       </a-scene>
