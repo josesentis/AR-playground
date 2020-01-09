@@ -1,5 +1,7 @@
 import React from "react";
 
+// Try image with plane https://aframe.io/docs/1.0.0/primitives/a-plane.html#sidebar
+
 const Scene = ({ src }) => {
   return (
     <>
