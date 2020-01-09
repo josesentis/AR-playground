@@ -6,10 +6,7 @@ const Scene = ({ src }) => {
       <a-assets>
         <img id="transpImage" src={src} alt="" />
       </a-assets>
-      <a-marker
-        // preset="hiro"
-        type="pattern" url="./patterns/logo/pattern-logo.patt"
-      >
+      <a-marker type="pattern" url="./patterns/logo/pattern-logo.patt">
         <a-image
           width="4"
           height="4"

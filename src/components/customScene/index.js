@@ -4,7 +4,7 @@ import React from "react";
 
 const Scene = () => (
   <>
-    <a-marker type="pattern" url="https://cdn.glitch.com/418c9d09-ea8f-42a9-a6b8-65fe2a5baa88%2Fpattern-marker%20(3).patt">
+    <a-marker type="pattern" url="./patterns/face/pattern-face.patt">
       <a-box position="0 0.5 0" material="color: red;"></a-box>
     </a-marker>
   </>
