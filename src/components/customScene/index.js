@@ -1,7 +1,5 @@
 import React from "react";
 
-// https://imgur.com/a/UXC7eYW
-
 const Scene = () => (
   <>
     <a-marker type="pattern" url="./patterns/face/pattern-face.patt">

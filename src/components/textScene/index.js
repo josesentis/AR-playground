@@ -1,16 +1,30 @@
 import React from "react";
 
-const Scene = ({ text }) => {
+const Scene = ({ content }) => {
   return (
     <>
       <a-assets>
-        <a-mixin
-          id="text"
-          text={`align: center; width: 3; font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt; value: ${text};`}
-        ></a-mixin>
+        {content.map(({ text }, i) => (
+          <a-mixin
+            id={`text-${i}`}
+            key={`mixin-${i}`}
+            text={`align: left; width: 4; font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt; value: ${text};`}
+          ></a-mixin>
+        ))}
       </a-assets>
-      <a-marker preset="hiro">
-        <a-text mixin="text" position="0 1 0" wrap-count="15" rotation="-90 0 0" color="blue"></a-text>
+      <a-marker preset="kanji">
+        {content.map(({ color }, i) => (
+          <a-box>
+            <a-text
+              mixin={`text-${i}`}
+              key={`text-${i}`}
+              position={`0 0 ${i * 0.5}`}
+              wrap-count="20"
+              // rotation="-90 0 0"
+              color={color}
+            ></a-text>
+          </a-box>
+        ))}
       </a-marker>
     </>
   );
