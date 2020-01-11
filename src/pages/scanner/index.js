@@ -4,25 +4,26 @@ import React, { useEffect, useState } from "react";
 // import CustomScene from '../../components/customScene';
 // import HiroScene from '../../components/hiroScene';
 import TextScene from "../../components/textScene";
+import LinkScene from "../../components/linkScene";
 
 import "../../styles.css";
 // import poster from './poster.png';
 // const text =
 // "This is the text that I'm displaying on the text box. This is how it should be long enought to be cut down";
-const colors = [
-  {
-    text: "first line of text",
-    color: "red"
-  },
-  {
-    text: "first line of text",
-    color: "blue"
-  },
-  {
-    text: "first line of text",
-    color: "yellow"
-  }
-];
+// const colors = [
+//   {
+//     text: "first line of text",
+//     color: "red"
+//   },
+//   {
+//     text: "first line of text",
+//     color: "blue"
+//   },
+//   {
+//     text: "first line of text",
+//     color: "yellow"
+//   }
+// ];
 
 const Scanner = () => {
   const [loaded, setLoaded] = useState(false);
@@ -33,7 +34,7 @@ const Scanner = () => {
     const timer = setTimeout(() => {
       setLoaded(true);
       // setSrc(poster);
-      setContent(colors);
+      // setContent(colors);
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -47,7 +48,8 @@ const Scanner = () => {
         {/* <ImageScene src={src} /> */}
         {/* <HiroScene /> */}
         {/* <CustomScene /> */}
-        <TextScene content={content} />
+        {/* <TextScene content={content} /> */}
+        <LinkScene />
         <a-camera-static />
       </a-scene>
     </div>
