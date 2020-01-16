@@ -1,5 +1,11 @@
 import React from 'react';
 
-const Home = () => <p>Home</p>;
+import Spray from '../../components/spray';
+
+class Home extends React.Component {
+  render () {
+    return <Spray />;
+  }
+}
 
 export default Home;
