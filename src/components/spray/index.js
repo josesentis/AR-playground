@@ -115,9 +115,6 @@ const init = () => {
 class Spray extends React.Component {
   componentDidMount() {
     init();
-    const a = document.getElementById('spray');
-
-    console.log('xxx', a);
   }
 
   render () {
