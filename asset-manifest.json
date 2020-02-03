@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/AR-playground/static/css/main.508151ab.chunk.css",
-    "main.js": "/AR-playground/static/js/main.b51d1c8a.chunk.js",
-    "main.js.map": "/AR-playground/static/js/main.b51d1c8a.chunk.js.map",
+    "main.js": "/AR-playground/static/js/main.1960c688.chunk.js",
+    "main.js.map": "/AR-playground/static/js/main.1960c688.chunk.js.map",
     "runtime-main.js": "/AR-playground/static/js/runtime-main.0144b88c.js",
     "runtime-main.js.map": "/AR-playground/static/js/runtime-main.0144b88c.js.map",
-    "static/js/2.68a47546.chunk.js": "/AR-playground/static/js/2.68a47546.chunk.js",
-    "static/js/2.68a47546.chunk.js.map": "/AR-playground/static/js/2.68a47546.chunk.js.map",
+    "static/js/2.b5a6dd96.chunk.js": "/AR-playground/static/js/2.b5a6dd96.chunk.js",
+    "static/js/2.b5a6dd96.chunk.js.map": "/AR-playground/static/js/2.b5a6dd96.chunk.js.map",
     "index.html": "/AR-playground/index.html",
-    "precache-manifest.c6f9668b2c2b9730efc205bd2d915d35.js": "/AR-playground/precache-manifest.c6f9668b2c2b9730efc205bd2d915d35.js",
+    "precache-manifest.518b5b1bc7c3d1d67e36534d67a7bc78.js": "/AR-playground/precache-manifest.518b5b1bc7c3d1d67e36534d67a7bc78.js",
     "service-worker.js": "/AR-playground/service-worker.js",
-    "static/css/main.508151ab.chunk.css.map": "/AR-playground/static/css/main.508151ab.chunk.css.map",
-    "static/js/2.68a47546.chunk.js.LICENSE": "/AR-playground/static/js/2.68a47546.chunk.js.LICENSE",
-    "static/media/poster.png": "/AR-playground/static/media/poster.6c6edc8b.png"
+    "static/js/2.b5a6dd96.chunk.js.LICENSE": "/AR-playground/static/js/2.b5a6dd96.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.0144b88c.js",
-    "static/js/2.68a47546.chunk.js",
-    "static/css/main.508151ab.chunk.css",
-    "static/js/main.b51d1c8a.chunk.js"
+    "static/js/2.b5a6dd96.chunk.js",
+    "static/js/main.1960c688.chunk.js"
   ]
 }
