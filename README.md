@@ -1,6 +1,6 @@
 # AR-playground
 
-[Link](https://josesentis15.github.io/AR-playground/)
+[Link](https://josesentis.github.io/AR-playground/)
 
 ----
 
